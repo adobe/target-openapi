@@ -17,12 +17,12 @@ paths:
       summary: Retrieve Target offers
       operationId: execute
       tags:
-        - Delivery API
+        - Delivery
       parameters:
-        - name: client
+        - name: organizationId
           in: query
           required: true
-          description: The customer client code
+          description: The IMS organizationId
           schema:
             type: string
         - name: sessionId
