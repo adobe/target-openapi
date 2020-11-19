@@ -19,10 +19,10 @@ paths:
       tags:
         - Delivery
       parameters:
-        - name: organizationId
+        - name: imsOrgId
           in: query
           required: true
-          description: The IMS organizationId
+          description: The IMS organization ID
           schema:
             type: string
         - name: sessionId
