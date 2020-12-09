@@ -18,6 +18,10 @@ DeliveryRequest:
       maxLength: 128
     id:
       $ref: "../../common/components/VisitorId.yaml#/VisitorId"
+    imsOrgId:
+      description: Valid IMS organization id.
+      type: string
+      maxLength: 128
     environmentId:
       description: Valid client environment id. If not specified host will be determined base on the provided host.
       type: integer
