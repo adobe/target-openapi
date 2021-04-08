@@ -3,7 +3,7 @@ Preview:
   type: object
   description: |
     Use this object to enable the Preview mode in the request.
-    Use the Preview mode to test the look and feel of your site for various locations and offers combinations.
+    Use the Preview mode to test the look and feel of your site for various location and offer combinations.
 
   properties:
     token:
