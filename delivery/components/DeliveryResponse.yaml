@@ -22,4 +22,7 @@ DeliveryResponse:
       $ref: "./ExecuteResponse.yaml#/ExecuteResponse"
     prefetch:
       $ref: "./PrefetchResponse.yaml#/PrefetchResponse"
+    notifications:
+      type: array
+      $ref: "./NotificationResponse.yaml#/NotificationResponse"
     
