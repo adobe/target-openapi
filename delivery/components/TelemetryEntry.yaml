@@ -10,9 +10,16 @@ TelemetryEntry:
       type: integer
       format: int64
       description: Timestamp of the entry, in milliseconds elapsed since UNIX epoch.
+    mode:
+      $ref: "./DecisioningMethod.yaml#/DecisioningMethod"
+      description: Decisioning Method for client
     execution:
       type: integer
       format: double
       description: Execution time in milliseconds.
+    parsing:
+      type: integer
+      format: int64
+      description: Response parsing time, in milliseconds elapsed since UNIX epoch.
     features:
       $ref: "./TelemetryFeatures.yaml#/TelemetryFeatures"

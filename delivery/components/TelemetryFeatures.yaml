@@ -5,4 +5,22 @@ TelemetryFeatures:
   properties:
     decisioningMethod:
       $ref: "./DecisioningMethod.yaml#/DecisioningMethod"
-      description: Decisioning Method
+      description: Decisioning Method used
+    executeMboxCount:
+      type: integer
+      format: int64
+      description: Number of mboxes in execute request
+    executePageLoad:
+      type: boolean
+      description: Indicates if execute pageLoad was used
+    prefetchMboxCount:
+      type: integer
+      format: int64
+      description: Number of prefetched mboxes
+    prefetchPageLoad:
+      type: boolean
+      description: Indicates if prefetch pageLoad was used
+    prefetchViewCount:
+      type: integer
+      format: int64
+      description: Number of prefetched views
