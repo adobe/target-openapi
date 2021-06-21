@@ -19,9 +19,10 @@ TelemetryEntry:
       description: Execution time in milliseconds.
     parsing:
       type: integer
-      format: int64
+      format: double
       description: Response parsing time, in milliseconds elapsed since UNIX epoch.
     features:
       $ref: "./TelemetryFeatures.yaml#/TelemetryFeatures"
     request:
       $ref: "./TelemetryRequest.yaml#/TelemetryRequest"
+      description: Details of the request either to Target or CDN
