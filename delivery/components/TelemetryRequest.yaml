@@ -10,7 +10,7 @@ TelemetryRequest:
     tls:
       type: integer
       format: int64
-      description: TLS hanshake time, in milliseconds elapsed since UNIX epoch.
+      description: TLS handshake time, in milliseconds elapsed since UNIX epoch.
     timeToFirstByte:
       type: integer
       format: int64
