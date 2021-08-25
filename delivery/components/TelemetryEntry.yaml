@@ -14,11 +14,11 @@ TelemetryEntry:
       $ref: "./ExecutionMode.yaml#/ExecutionMode"
       description: Execution Mode for request
     execution:
-      type: integer
+      type: number
       format: double
       description: Execution time in milliseconds.
     parsing:
-      type: integer
+      type: number
       format: double
       description: Response parsing time, in milliseconds elapsed since UNIX epoch.
     features:
